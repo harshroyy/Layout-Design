@@ -107,7 +107,7 @@ body {
   bottom: 47px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Optional shadow effect */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 
