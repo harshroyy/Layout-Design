@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -10,15 +10,12 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #DAEEF2; 
-  position: relative;
-  overflow: hidden;
 }
 
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 30px;
   width: 85vw;
   height: 85vh;
@@ -28,7 +25,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
   color: white;
   border-radius: 20px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
@@ -67,6 +63,7 @@ body {
 .box4 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  font-size: 60px;
   background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
   font-family: 'Pacifico', cursive;
 }
@@ -87,7 +84,6 @@ body {
   grid-row: 3 / 4;
   font-size: medium;
   background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
- 
   font-family: 'Playfair Display', cursive;
   font-style: italic;
 }
@@ -96,7 +92,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 2.5rem;
+  font-size: 40px;
   animation: pulse 1.5s infinite;
 }
 
@@ -104,9 +100,6 @@ body {
   width: 60%; 
   border-radius: 10px;
   position: absolute;
-  bottom: 47px;
-  left: 50%;
-  transform: translateX(-50%);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
